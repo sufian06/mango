@@ -1,9 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes/Routes/Routes";
 
 function App() {
   return (
     <div>
-      <h1>Mango</h1>
-      <button className="bg-secondary">Click</button>
+      <RouterProvider router={router} />
     </div>
   );
 }
